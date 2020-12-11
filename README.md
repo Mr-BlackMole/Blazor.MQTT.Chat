@@ -18,7 +18,9 @@ C:\Program Files\RabbitMQ Server\rabbitmq_server-x.y.z\sbin>
 
 Run the following commands:
 
+
 rabbitmq-plugins enable rabbitmq_management
+
 rabbitmq-plugins enable rabbitmq_web_mqtt
 
 Once you have enabled the plugins you can navigate to the management page by going to http://localhost:15672 if you have not changed the default port.
